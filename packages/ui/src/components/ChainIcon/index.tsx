@@ -131,6 +131,10 @@ const ChainIcon = ({
       [iconDark, iconLight] =
         type === 'icon' ? [bitsongIconDark, bitsongIconDark] : [bitsongLogoDark, bitsongLogoDark];
       break;
+    case 'celinium':
+      [iconDark, iconLight] =
+        type === 'icon' ? [cosmosIconLight, cosmosIconLight] : [cosmosLogoDark, cosmosLogoLight];
+      break;
     case 'cosmos':
       [iconDark, iconLight] =
         type === 'icon' ? [cosmosIconLight, cosmosIconLight] : [cosmosLogoDark, cosmosLogoLight];
